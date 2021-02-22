@@ -2,6 +2,8 @@
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
+## Preview on GitHub Pages: [click here.](https://huddle-landing-page-ten-tau.vercel.app/ "click here.")
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
