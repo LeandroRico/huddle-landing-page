@@ -1,0 +1,137 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 100%;
+  height: 100vh;
+  background-image: url("../images/bg-mobile.svg");
+  background-color: var(--violet);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  height: 10rem;
+}
+
+header img {
+  width: 14rem;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50%;
+  padding-top: 2.5rem;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-content {
+  padding: 6rem 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2.6rem;
+  padding-bottom: 2rem;
+}
+
+.main-content p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.main-content button {
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  max-width: 40rem;
+  height: 4.3rem;
+  border-radius: 25px;
+  border: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--violet);
+  box-shadow: 0 0.5px 4px black;
+  cursor: pointer;
+}
+
+.main-content button:hover {
+  color: white;
+  background-color: var(--soft-magenta);
+}
+
+.main-content button:focus {
+  outline: none;
+}
+
+footer {
+  height: auto;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+footer span {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+}
+
+footer .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 1.4rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+footer .icon:hover {
+  color: var(--soft-magenta);
+  border: 1px solid var(--soft-magenta);
+}
+
+.wrapper {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-direction: inherit;
+  width: 80%;
+  height: inherit;
+  margin: 0 auto;
+}

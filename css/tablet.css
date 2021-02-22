@@ -1,0 +1,23 @@
+body {
+  background-size: cover;
+}
+
+header img {
+  width: 18rem;
+}
+
+.main-content h1 {
+  font-size: 3rem;
+}
+
+.main-content p {
+  font-size: 1.8rem;
+}
+
+.main-content button {
+  font-size: 1.6rem;
+}
+
+footer .icon {
+  font-size: 1.6rem;
+}
