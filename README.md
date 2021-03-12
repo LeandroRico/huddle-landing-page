@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component
 
-## Preview on GitHub Pages: [click here.](https://huddle-landing-page-ten-tau.vercel.app/ "click here.")
+## Preview on Vercel: [click here.](https://huddle-landing-page-ten-tau.vercel.app/ "click here.")
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
